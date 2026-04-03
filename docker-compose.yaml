@@ -18,7 +18,7 @@ services:
     depends_on:
     - redis
   frontend:
-    build: ./user
+    build: ./frontend
     image: mskumarmadhavarapu/frontend:1.0.0
     container_name: frontend
     ports:
