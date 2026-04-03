@@ -31,8 +31,8 @@ services:
   redis:
     build: redis:7.0
     container_name: redis
-  networks:
-   default:
+networks:
+  default:
     driver: bridge
     name: roboshop
     external: false # if true, you need to create network manually
