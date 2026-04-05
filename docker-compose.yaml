@@ -85,7 +85,7 @@ networks:
     name: roboshop
     external: false # if true, you need to create network manually
 volumes:
-  - mongodb: # docker volume create mongodb
-  - redis:
-  - mysql:
-  - rabbitmq:
+  mongodb: # docker volume create by mongodb
+  redis:
+  mysql:
+  rabbitmq:
